@@ -14,25 +14,22 @@ Repository created by (and acknowledgments made to):
 	bernardi.james.h@gmail.com
 
 
-
-(some additional information that is a little outdated- flowchart and script headers contain most up-to-date info):
-USAGE:
+USAGE (complete information is found in flowchart pdf files- this gives the most important scripts):
 
 This package has scripts to generate a serpent input file from a directory of stl-geometry files. 
 The scripts are designed to keep these scripts and files in directories as marked, but these can be changed at the top of the scripts.
 
 script 1) make_model_description.py
 
-	This script reads in the stl files and outputs a model description file to a directory 
-	specified in the script as.
+	This script reads in the stl files and outputs a model description file to a directory specified in the script as.
 	The model description uses stl file prefixes to group components, and specify their materials.
 
 	*If materials are to be changed, do this within this script in the materials_dictionary*
 	
-	The output file is found in the directory 'data_files' with a name specified by the blanket 		material and enrichment used.
+	The output file is found in the directory 'data_files' with a name specified by the blanket material and enrichment used.
 	The script takes 2, 1 or 0 arguments, delimited by a space.
 	If 2 are passed, these are the blanket material and the enrichment.
-	If one is passed, the script uses a default material in the script and the enrichment is the 		argument.
+	If one is passed, the script uses a default material in the script and the enrichment is the argument.
 	If none are passed, it uses a default specified in the script for both variables.
 
 
