@@ -1,0 +1,21 @@
+#An example file for the parameters required. Can be manually made
+#or 'make parameter' script will produce autoparameters.txt (similar form)
+#
+#FORM:
+#
+#<name>
+#port_length <single_float>
+#radial_angles <list_of_angles>
+#lateral_angles <list_of_angles>
+#long_adjs <list_of_angles>
+#lat_adjs <list_of_angles>
+#
+#NOTE: all lists must be of same length
+
+4.1
+port_length 5000
+radial_angles 0 1.5707963267948966192313216916398 3.1415926535897932384626433832795 4.7123889803846898576939650749193
+lateral_angles 0 0 0 0
+long_adjs 0 0 0 0 
+lat_adjs 0 0 0 0 
+
