@@ -6,8 +6,7 @@ The surface area flow chart explains usage of sa_scripts
 Created by:
 	@author: James Bernardi
 	University of Cambridge
-	bernardi.james.h@gmail.com
-	
+	bernardi.james.h@gmail.com	
 	2017-09-01
 """
 
